@@ -1,0 +1,76 @@
+﻿.navbar {
+    position: relative;
+    min-height: 64px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+.navbar-default {
+    color: #777;
+    background: #fff;
+    border-color: #aeaeae;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 22px 30px 15px 15px;
+}
+
+.navbar-nav li {
+    background: transparent;
+}
+
+.navbar-nav > li > a {
+    display: block;
+    padding: 30px 30px 14px;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background: #f0f0f0;
+    color: #ff6a00;
+}
+
+.carousel {
+    position: relative;
+    padding-top: 4px;
+    padding-bottom: 28px;
+    background-color: #ccc;
+}
+
+.carousel-inner .item {
+    max-height: 640px;
+}
+
+    .carousel-inner .item > a > img {
+        min-width: 100%;
+        line-height: 1;
+    }
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    border-color: transparent;
+}
+
+    .carousel-indicators .active {
+        background-color: #ededed;
+        width: 14px;
+        height: 14px;
+        margin-bottom: 1px;
+    }
+
+    .carousel-indicators li {
+        background-color: #ededed;
+        width: 14px;
+        height: 14px;
+        border-color: transparent;
+    }
+
+        .carousel-indicators li:hover {
+            background-color: #fff;
+            width: 14px;
+            height: 14px;
+            border-color: transparent;
+        }

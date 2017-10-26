@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" width="device-width initial scale=1">
+    <title>范例1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="myCss.css" type="text/css">
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4" style="background:#4cff00">123</div>
+            <div class="col-md-8" style="background:#ffd820">456</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4" style="background:#8f2424">789</div>
+            <div class="col-xs-8" style="background:#1969ad">012</div>
+        </div>
+
+        <p>14px,1.4285,#333</p>
+        <p class="lead">14px,1.4285,#333</p>
+        <b>加粗b</b>
+        <strong>加粗strong</strong>
+        <h1>36px<small>h1的副标题</small></h1>
+        <h2>30px<small>h2的副标题</small></h2>
+        <p>文字颜色-强调</p>
+        <div class="text-muted">提示，深灰色</div>
+        <div class="text-primary">主要，蓝色</div>
+        <div class="text-success">成功</div>
+        <div class="text-info">通知</div>
+        <div class="text-danger">危险</div>
+        <div class="text-warning">警告</div>
+        <p class="text-left">左对齐</p>
+        <p class="text-right">右对齐</p>
+
+        <p>列表</p>
+        <ul class="list-unstyled">
+            <li>内容</li>
+            <li>内容</li>
+            <li>内容</li>
+        </ul>
+        <ol class="list-inline">
+            <li>内容</li>
+            <li>内容</li>
+            <li>内容</li>
+        </ol>
+
+        <p>表格</p>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <td>周一</td>
+                    <td>周二</td>
+                    <td>周三</td>
+                    <td>周四</td>
+                    <td>周五</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>数学</td>
+                    <td>语文</td>
+                    <td>数学</td>
+                    <td>语文</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>数学</td>
+                        <td>语文</td>
+                        <td>数学</td>
+                        <td>语文</td>
+                        <td>数学</td>
+                    </tr>
+                    <tr>
+                        <td>英语</td>
+                        <td>数学</td>
+                        <td>语文</td>
+                        <td>英语</td>
+                        <td>数学</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form action="">
+            <div class="form-group">
+                <label for="">邮箱：</label>
+                <input type="email" class="form-control" placeholder="请输入用户名" />
+            </div>
+            <div class="form-group">
+                <label for="">密码：</label>
+                <input type="password" class="form-control" placeholder="请输入邮箱密码" />
+            </div>
+            <div class="checkbox">
+                <label for="">
+                    <input type="checkbox" />记住密码
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default form-control">进入邮箱</button>
+        </form>
+
+        <div class="row">
+            <div class="col-md-4" style="background:#4cff00">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">邮箱：</label>
+                        <input type="email" class="form-control" placeholder="请输入用户名" />
+                    </div>
+                    <div class="form-group">
+                        <label for="">密码：</label>
+                        <input type="password" class="form-control" placeholder="请输入邮箱密码" />
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox" />记住密码
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default form-control">进入邮箱</button>
+                </form>
+            </div>
+            <div class="col-md-8" style="background:#ffd820">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <td>周一</td>
+                            <td>周二</td>
+                            <td>周三</td>
+                            <td>周四</td>
+                            <td>周五</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>数学</td>
+                            <td>语文</td>
+                            <td>数学</td>
+                            <td>语文</td>
+                            <td>数学</td>
+                        </tr>
+                        <tr>
+                            <td>英语</td>
+                            <td>数学</td>
+                            <td>语文</td>
+                            <td>英语</td>
+                            <td>数学</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <p>不同标签制作的按钮</p>
+        <button class="btn btn-default" type="button">button标签制作的按钮</button>
+        <input type="submit" class="btn btn-default" value="input标签制作的按钮" />
+        <a href="#" class="btn btn-default">a标签制作的按钮</a>
+        <div class="btn btn-default">div标签制作的按钮</div>
+        <span class="btn btn-default">span标签制作的按钮</span>
+
+        <p>图标的使用</p>
+        <ul class="list-inline" style="text-align:center">
+            <li><span class="glyphicon-home"></span>首页</li>
+            <li><span class="glyphicon-list"></span>资讯</li>
+            <li><span class="glyphicon-fire"></span>案例</li>
+            <li><span class="glyphicon-bullhorn"></span>关于</li>
+        </ul>
+
+        <p>图片</p>
+        <img src="image/1.jpg" class="img-circle" alt="" />
+        <img src="image/1.jpg" class="img-responsive" alt="" />
+        <img src="image/1.jpg" class="img-rounded" alt="" />
+        <img src="image/1.jpg" class="img-thumbnail" alt="" />
+
+        <p>下拉菜单的制作</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                下拉菜单
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">菜单头部</li>
+                <li>菜单1</li>
+                <li class="divider"></li>
+                <li class="active">菜单被选中</li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
